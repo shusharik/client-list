@@ -1,0 +1,6 @@
+.date-row {
+    flex: 1;
+    padding: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}

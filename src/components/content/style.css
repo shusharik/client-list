@@ -1,0 +1,27 @@
+.content {
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border: 1px solid rgba(217, 217, 217, 0.6);
+    border-top: none;
+    height: 100%;
+    overflow-y: scroll;
+}
+.content::-webkit-scrollbar {
+    width: 6px;
+}
+.content::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    background-color: white;
+    border-radius: 10px;
+}
+.content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    -webkit-box-shadow: none;
+}
+.contentRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.6);
+}
